@@ -1,0 +1,18 @@
+/*To Implement a constructor */
+class AdditionConstructor
+{
+	public AdditionConstructor(int a,int b)
+	{
+		System.out.println("The sum is : "+(a+b));
+	}
+	public static void main(String[] args) 
+	{
+		AdditionConstructor add=new AdditionConstructor(10,20);
+		System.out.println("Hello World!");
+	}
+}
+
+//Output//
+The sum is : 30
+Hello World!
+Press any key to continue . . .
